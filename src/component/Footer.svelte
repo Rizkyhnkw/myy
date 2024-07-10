@@ -1,4 +1,4 @@
-<footer class="py-20 sm:py-30 bg-slate-500 border-t border-solid border-sky-950 flex flex-col gap-4 sm:gap-8 justify-center items-center">
+<footer class="py-20 sm:py-30 bg-slate-900 border-t border-solid border-sky-950 flex flex-col gap-4 sm:gap-8 justify-center items-center">
 <p class="px-4 py-2 bg-white text-slate-950 font-medium">
     connect with me &rAarr;
 </p>

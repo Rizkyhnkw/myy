@@ -20,7 +20,7 @@
 </h2>
 <p class="text-base sm:text-lg md:text-xl">
     My <span class="text-sky-400"> favorite tech</span> includes JavaScript
-    (NEXT.JS or SvelteKit),Python(ScikitLearn or TensorFlow) TailwindCSS, Node.js + Express.js & MongoDB
+    (ExpressJS or SvelteKit),Python(ScikitLearn or TensorFlow) TailwindCSS, Node.js + & MongoDB
 </p>
 <a  class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full  bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
     <div
