@@ -2,7 +2,7 @@
     import Step from "./Step.svelte";
     let steps = [
         {name: 'BookShelf',icon:'fas fa-book-open'},
-        {name: 'WheatherApp',icon:'fa-solid fa-snowflake'},
+        {name: 'Qr code generator',icon:'fa-solid fa-qrcode'},
         {name: 'ContactAddress',icon:'fa-solid fa-address-book'}
     ];
     let benefits = [
@@ -49,9 +49,15 @@ a few of my hardwork
 <div class="bg-gray-800 grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
     <Step step={steps[0]}>
         <p>A simple REST API to store a books created with<strong class="text-sky-400"> NodeJS + Hapi.js</strong></p>
+        <div
+        class="ml-auto cursor-pointer hover:text-gray-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full
+         after:bg-white after:w-full after:h-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
+    >
+    <p class="z-4"><a href="https://github.com/Rizkyhnkw">Go to &rarr;</a></p>
+    </div>
     </Step>
     <Step step={steps[1]}>
-p
+<p>A simple web to generate QR code</p>
     </Step>
     <Step step={steps[2]}>
 <p>A simple web app to save contacts created with <strong class="text-sky-400">NodeJS+ExpressJS</strong></p>
